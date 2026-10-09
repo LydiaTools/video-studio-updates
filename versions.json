@@ -1,0 +1,542 @@
+{
+  "schema": 1,
+  "product": "Video Studio / 视频制作",
+  "audit_date": "2026-10-09",
+  "current_version": "0.3.1",
+  "current_build": 26,
+  "versions": [
+    {
+      "version": "0.1.0",
+      "build": 1,
+      "date_recorded": "2026-09-30",
+      "title": "原生镜头工位原型",
+      "changes": "从白板概念样例进入原生窗口，形成稿件、分镜与画面试验入口。",
+      "verification": "保存了两种原型二进制；属于内部原型，完整业务成片未验收。",
+      "state": "historical_internal_build",
+      "retained_copies": 3,
+      "binary_variants": [
+        {
+          "sha256": "42bf29591679cc0d94cd7677ff3d88825bc3c626d76bbfa836e011ebae40b1e9",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        },
+        {
+          "sha256": "b4a1c9f9fd985b678eb7ae1a28055a2be8cc1dbfbbb3475f750a77fd0e9b6bdd",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        }
+      ],
+      "public_installer": false,
+      "retrospective_published_on": "2026-10-09"
+    },
+    {
+      "version": "0.2.0",
+      "build": 2,
+      "date_recorded": "2026-10-01",
+      "title": "真实录屏与素材路线",
+      "changes": "改为口播制作，加入真实录屏、素材混剪与源时码；缺素材时停止。",
+      "verification": "12秒横竖无声试片及失败停止检查；整片声音和用户效果仍待审。",
+      "state": "historical_internal_build",
+      "retained_copies": 1,
+      "binary_variants": [
+        {
+          "sha256": "1980dbfa02181d95c9cf2e8ce6ca056ab32516242726bf8f4847402e348869de",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        }
+      ],
+      "public_installer": false,
+      "retrospective_published_on": "2026-10-09"
+    },
+    {
+      "version": "0.2.1",
+      "build": 3,
+      "date_recorded": "2026-10-01",
+      "title": "流程画廊与版本审片包",
+      "changes": "加入11条流程、真实预览、自动保存、输入过期提示与独立版本输出目录。",
+      "verification": "安装版生成8.667秒带声链路短样；声音主观试听和业务效果未全量验收。",
+      "state": "historical_internal_build",
+      "retained_copies": 2,
+      "binary_variants": [
+        {
+          "sha256": "4d592e9694eac033bc54e6e81d511be39656cfc6c33d0cb6943d5d0fcf732f0c",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        },
+        {
+          "sha256": "df9b00a7c471d5493248dae85f228b863f0f968532f629c94b29d14b8b928628",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        }
+      ],
+      "public_installer": false,
+      "retrospective_published_on": "2026-10-09"
+    },
+    {
+      "version": "0.2.1",
+      "build": 4,
+      "date_recorded": "2026-10-01",
+      "title": "加载与内容哈希保护",
+      "changes": "修复异步加载覆盖、双来源相同素材以及同路径音轨被替换仍可用的问题。",
+      "verification": "10项加载/音轨与3项素材检查及原回归通过；未重做已批准媒体。",
+      "state": "historical_internal_build",
+      "retained_copies": 1,
+      "binary_variants": [
+        {
+          "sha256": "6311f66295f30620fb3fdf2906013b75a8bac01602394b380b417b2cb9ec598d",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        }
+      ],
+      "public_installer": false,
+      "retrospective_published_on": "2026-10-09"
+    },
+    {
+      "version": "0.2.1",
+      "build": 5,
+      "date_recorded": "2026-10-01",
+      "title": "白板修复过渡构建",
+      "changes": "保留恢复白板期间的过渡应用，后续几何与竖屏构图在build6收敛。",
+      "verification": "有可核验应用副本；没有独立完整更新说明，不能补造独有功能。",
+      "state": "historical_internal_build",
+      "retained_copies": 1,
+      "binary_variants": [
+        {
+          "sha256": "e6dadf39fac6fd91bc77f9b022474d22f1b07a3b3db696f4e9577350a51e155b",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        }
+      ],
+      "public_installer": false,
+      "retrospective_published_on": "2026-10-09"
+    },
+    {
+      "version": "0.2.2",
+      "build": 6,
+      "date_recorded": "2026-10-01",
+      "title": "稳定白板与竖屏关系图",
+      "changes": "固定文档坐标和线条几何，加入静止段、平滑转场、竖向关系链及长文字停止。",
+      "verification": "16秒无声画面与原生多段输出已检查；完整带声效果仍需本期审片。",
+      "state": "historical_internal_build",
+      "retained_copies": 2,
+      "binary_variants": [
+        {
+          "sha256": "fbe876af2ced999a3009ac045edb1fd9141820a286f0e56047e1df7624f36d65",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        }
+      ],
+      "public_installer": false,
+      "retrospective_published_on": "2026-10-09"
+    },
+    {
+      "version": "0.2.3",
+      "build": 7,
+      "date_recorded": "2026-10-01",
+      "title": "简化创作界面",
+      "changes": "收敛三块导航，宽窄窗口自适应，稿件与真实预览并排，可播放音轨与视频。",
+      "verification": "宽窄GUI、保存重开与核心回归通过；未新增配音或渲染。",
+      "state": "historical_internal_build",
+      "retained_copies": 4,
+      "binary_variants": [
+        {
+          "sha256": "6ae75d34e0a711dad3243d636c27fc4c1abd3e0a6f7141cd37acea34056ec872",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        }
+      ],
+      "public_installer": false,
+      "retrospective_published_on": "2026-10-09"
+    },
+    {
+      "version": "0.3.0",
+      "build": 8,
+      "date_recorded": "2026-10-01",
+      "title": "中文口播与出海统一工具",
+      "changes": "统一中文口播、出海、对标及素材库；加入找资料、筛价值、来源快照和原创稿。",
+      "verification": "原生资料写稿、保存和重开回读通过；出海全部路线未完成一键成片验收。",
+      "state": "historical_internal_build",
+      "retained_copies": 1,
+      "binary_variants": [
+        {
+          "sha256": "b8bb4d3e9cf9a2b8a04833b4836f2d02b38ad7872c97e8aacf6677452fe769d3",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        }
+      ],
+      "public_installer": false,
+      "retrospective_published_on": "2026-10-09"
+    },
+    {
+      "version": "0.3.1",
+      "build": 9,
+      "date_recorded": "2026-10-01",
+      "title": "文案与画面独立选择",
+      "changes": "修正文案路线影响画面路线的衔接，保留旧稿读回与独立场景选择。",
+      "verification": "有正式与安装过渡两份二进制；部分终验在build10继续。",
+      "state": "historical_internal_build",
+      "retained_copies": 2,
+      "binary_variants": [
+        {
+          "sha256": "ee2e392f1509e3e6884d4de8c541ace5c10d08879e55969607389f2b5cb3b1b9",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        },
+        {
+          "sha256": "f000c9b37f8f4a66770fff94329b80f68af37eed270e8b8f3ba362e89c45acf9",
+          "signature_valid_in_at_least_one_copy": false,
+          "installed_now": false
+        }
+      ],
+      "public_installer": false,
+      "retrospective_published_on": "2026-10-09"
+    },
+    {
+      "version": "0.3.1",
+      "build": 10,
+      "date_recorded": "2026-10-01",
+      "title": "资料切换与问题素材兼容",
+      "changes": "记录了东轩/初稿切换不改变录屏路线，问题素材原条目按哈希直接接收和禁选。",
+      "verification": "有历史GUI/回归记录；未找到元数据为build10的应用，名为build10目录中的包实际为build11。",
+      "state": "documented_only",
+      "retained_copies": 0,
+      "binary_variants": [],
+      "public_installer": false,
+      "retrospective_published_on": "2026-10-09"
+    },
+    {
+      "version": "0.3.1",
+      "build": 11,
+      "date_recorded": "2026-10-01",
+      "title": "预览优先与文案入口收口",
+      "changes": "将白板意图收进可选区域，减轻长稿占用预览，保留三块业务入口及资料加工。",
+      "verification": "留有交付包和一致二进制；完整新主题带声制作另行验收。",
+      "state": "historical_internal_build",
+      "retained_copies": 3,
+      "binary_variants": [
+        {
+          "sha256": "900494cd537f686326c374fbc296a6f3498451dd07a7b129cf27e92bc89bf963",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        }
+      ],
+      "public_installer": false,
+      "retrospective_published_on": "2026-10-09"
+    },
+    {
+      "version": "0.3.1",
+      "build": 12,
+      "date_recorded": "2026-10-02",
+      "title": "来源价值优先",
+      "changes": "资料选择不再由白板画面决定，白板建议可为空；保留受众问题与原创贡献。",
+      "verification": "来源回归、兼容与路线保存重读检查通过。",
+      "state": "historical_internal_build",
+      "retained_copies": 2,
+      "binary_variants": [
+        {
+          "sha256": "b44efe26aebec686717cec161f533e1d4aab226c53cd69cb21d61a908b7bd0b3",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        }
+      ],
+      "public_installer": false,
+      "retrospective_published_on": "2026-10-09"
+    },
+    {
+      "version": "0.3.1",
+      "build": 13,
+      "date_recorded": "2026-10-02",
+      "title": "公开资料边界与统计",
+      "changes": "补找资料、留来源、筛选和核对流程；区分正文、笔记、缺口及未采用资料。",
+      "verification": "来源回归与签名通过；当时启动遇外盘权限/加载阻塞。",
+      "state": "historical_internal_build",
+      "retained_copies": 2,
+      "binary_variants": [
+        {
+          "sha256": "8492fcdc80273266db2a9ad2d93855aa16b7eb3e5a47987132db4439936fb3ea",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        }
+      ],
+      "public_installer": false,
+      "retrospective_published_on": "2026-10-09"
+    },
+    {
+      "version": "0.3.1",
+      "build": 14,
+      "date_recorded": "2026-10-02",
+      "title": "外盘启动恢复候选",
+      "changes": "加入原生目录授权、持久书签、加载超时与不重复覆盖保护。",
+      "verification": "候选构建和加载保护检查通过；该时点未完成正式安装GUI。",
+      "state": "historical_internal_build",
+      "retained_copies": 2,
+      "binary_variants": [
+        {
+          "sha256": "93c2415d41dae90b06903996163de5222f9689cb6577e1d30e4355bfa33fe1e0",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        }
+      ],
+      "public_installer": false,
+      "retrospective_published_on": "2026-10-09"
+    },
+    {
+      "version": "0.3.1",
+      "build": 15,
+      "date_recorded": "2026-10-03",
+      "title": "文案优先界面候选",
+      "changes": "将题目、受众、问题和核稿放在画面/声音之前，保留可选白板和折叠说明。",
+      "verification": "候选编译、签名、兼容与只读宽窄界面检查通过；当时正式安装仍待恢复。",
+      "state": "historical_internal_build",
+      "retained_copies": 2,
+      "binary_variants": [
+        {
+          "sha256": "95dd3d092c424505a513169fe034773b81bb4c0b921ab7c977c17269d6470115",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        }
+      ],
+      "public_installer": false,
+      "retrospective_published_on": "2026-10-09"
+    },
+    {
+      "version": "0.3.1",
+      "build": 16,
+      "date_recorded": "2026-10-03",
+      "title": "公开取材提示候选",
+      "changes": "明确跨网站公开查询、用户提供正文与读取受阻时的缺口。",
+      "verification": "候选签名和状态分类检查通过；当时尚未更新正式安装。",
+      "state": "historical_internal_build",
+      "retained_copies": 2,
+      "binary_variants": [
+        {
+          "sha256": "e9ad908cf15986500303a01bd46320396019e11a11f01c0a76d8d79017ff8132",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        }
+      ],
+      "public_installer": false,
+      "retrospective_published_on": "2026-10-09"
+    },
+    {
+      "version": "0.3.1",
+      "build": 17,
+      "date_recorded": "2026-10-03",
+      "title": "安装与外盘可达性恢复",
+      "changes": "实际恢复目录授权，升级并重开，读取原资料且保留写稿/画面路线。",
+      "verification": "正式安装、正常退出重开与路线保存实测通过。",
+      "state": "historical_internal_build",
+      "retained_copies": 2,
+      "binary_variants": [
+        {
+          "sha256": "f11d40b17490e7fcbe833cb25306ef85e814d8c9fe9a5ee335c08a27986ce2f6",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        }
+      ],
+      "public_installer": false,
+      "retrospective_published_on": "2026-10-09"
+    },
+    {
+      "version": "0.3.1",
+      "build": 18,
+      "date_recorded": "2026-10-03",
+      "title": "稿件确认门禁",
+      "changes": "核稿确认前拦截画面和声音，改稿后撤销确认；增加历史来源批次只读回看。",
+      "verification": "来源及核稿兼容检查、安装版入口检查通过；新一期完整视听待验。",
+      "state": "historical_internal_build",
+      "retained_copies": 1,
+      "binary_variants": [
+        {
+          "sha256": "e848f9dc5c9fdc22a04c10a874faa1a3eef9b386eb197a92cf357a9faca27bdc",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        }
+      ],
+      "public_installer": false,
+      "retrospective_published_on": "2026-10-09"
+    },
+    {
+      "version": "0.3.1",
+      "build": 19,
+      "date_recorded": "2026-10-03",
+      "title": "受众问题进入写稿",
+      "changes": "把受众与问题放在写稿前并传入检索/加工；保留取材、筛选与原创判断说明。",
+      "verification": "17项来源及10项兼容检查、宽窄GUI与保存回读通过。",
+      "state": "historical_internal_build",
+      "retained_copies": 3,
+      "binary_variants": [
+        {
+          "sha256": "3da799717ff236d810dcaf24ab9d3b5cf6d266fd5088260530d316bd5498c8c5",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        },
+        {
+          "sha256": "c1b4b0b4282885747d12ff9eb941be2e498135878602ebff6c04dcefcf72a961",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        }
+      ],
+      "public_installer": false,
+      "retrospective_published_on": "2026-10-09"
+    },
+    {
+      "version": "0.3.1",
+      "build": 20,
+      "date_recorded": "2026-10-05",
+      "title": "羊毛毡故事图片运镜",
+      "changes": "加入原创/授权静图导入、SHA冻结、缓慢推进和连接点动画。",
+      "verification": "25项检查、签名、保存重开与24.16秒带声候选通过技术核验；角色动作未接通。",
+      "state": "historical_internal_build",
+      "retained_copies": 5,
+      "binary_variants": [
+        {
+          "sha256": "aadb513395d82d85dc7e3fe05071e289b6c3e7ce1ba8ec263d63f2e7917494f6",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        },
+        {
+          "sha256": "ccb9351266110f5bd5f8c9884103091f9568f01789f1af1890e4a2741edcff12",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        }
+      ],
+      "public_installer": false,
+      "retrospective_published_on": "2026-10-09"
+    },
+    {
+      "version": "0.3.1",
+      "build": 21,
+      "date_recorded": "2026-10-05",
+      "title": "真实图生视频路线",
+      "changes": "加入逐镜头参考帧与动作提交、云端任务记录、费用/外传确认及动态收录门禁。",
+      "verification": "37项离线检查与安装界面核验通过；真实云端请求和动态成片未验证。",
+      "state": "historical_internal_build",
+      "retained_copies": 6,
+      "binary_variants": [
+        {
+          "sha256": "59a8b82ffee0e20e221d7148a69325404e8472658ae118e7c79ce51903399deb",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        },
+        {
+          "sha256": "8ef9c516354c1d8b29f416741124b9d75738b030559a46fbd45d5cc4b4113dc5",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        },
+        {
+          "sha256": "aab05a46d399fbbd4a7415ad29d62c5542f41413d0b7600b1d2bd049bc9c17ba",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        }
+      ],
+      "public_installer": false,
+      "retrospective_published_on": "2026-10-09"
+    },
+    {
+      "version": "0.3.1",
+      "build": 22,
+      "date_recorded": "2026-10-09",
+      "title": "对标文案与选题贯通",
+      "changes": "加入人物、反差与判断方法；安装此前选题、稿件、来源和反馈关联增强。",
+      "verification": "完整构建、签名、旧项目读回和实际方法入口通过；本题模型质量与带声成片未验。",
+      "state": "historical_internal_build",
+      "retained_copies": 2,
+      "binary_variants": [
+        {
+          "sha256": "7b208557ae4212b59a9b964b7485efd21017fc9cff8083e6ec52b6deaa7f1d3c",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        }
+      ],
+      "public_installer": false,
+      "retrospective_published_on": "2026-10-09"
+    },
+    {
+      "version": "0.3.1",
+      "build": 23,
+      "date_recorded": "2026-10-09",
+      "title": "动态信息卡初版",
+      "changes": "加入一手资料/版本差异写法以及开场、观点、流程、对照四种图卡。",
+      "verification": "6秒无声技术试片和实际GUI通过；视觉方向后来在build26改用Remotion。",
+      "state": "historical_internal_build",
+      "retained_copies": 2,
+      "binary_variants": [
+        {
+          "sha256": "cdd57781cfeff16eacfca1048c64917dcae2b977aac2c2b4e4fe6b4d7a7682f0",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        }
+      ],
+      "public_installer": false,
+      "retrospective_published_on": "2026-10-09"
+    },
+    {
+      "version": "0.3.1",
+      "build": 24,
+      "date_recorded": "2026-10-09",
+      "title": "Hypit与两套竖屏实验",
+      "changes": "接入Hypit快速画面输入/结果链，并加入注意力路径和概率年鉴实验画面。",
+      "verification": "编译/安装入口及输入保护检查通过；两套参考风格尚无视频短样验收。",
+      "state": "historical_internal_build",
+      "retained_copies": 2,
+      "binary_variants": [
+        {
+          "sha256": "a646cb5a03717f883c403c7f5871178d8296ea459928a79deadb204a40509d2a",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        }
+      ],
+      "public_installer": false,
+      "retrospective_published_on": "2026-10-09"
+    },
+    {
+      "version": "0.3.1",
+      "build": 25,
+      "date_recorded": "2026-10-09",
+      "title": "Hypit完整面板与过渡整合",
+      "changes": "补齐准备任务、执行、接回预览三步界面与输入变化失效；并保留在途Remotion整合。",
+      "verification": "宽窄GUI、示例拦截和7项关联/失败检查通过；真实Hypit画面尚未生产。",
+      "state": "historical_internal_build",
+      "retained_copies": 6,
+      "binary_variants": [
+        {
+          "sha256": "3837076f4f0154c4df54587a220ce5022c17578e8406476b77d92ba42803c691",
+          "signature_valid_in_at_least_one_copy": false,
+          "installed_now": false
+        },
+        {
+          "sha256": "a72182c65aaeb55c6b31d669f339947d000072c67320c5a4df4cce198df573f6",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        }
+      ],
+      "public_installer": false,
+      "retrospective_published_on": "2026-10-09"
+    },
+    {
+      "version": "0.3.1",
+      "build": 26,
+      "date_recorded": "2026-10-09",
+      "title": "Remotion讲解与执行器修正",
+      "changes": "动态信息卡改走Remotion竖屏模板，增加16秒样片入口；保留完整Hypit流程并修正执行设置/字节码缓存。",
+      "verification": "16秒静音视觉方向获认可，包内渲染器实产MP4/SRT/JSON；安装签名与GUI通过。真实本题带声成片、横版及另一电脑安装未验。",
+      "state": "current_internal_build",
+      "retained_copies": 2,
+      "binary_variants": [
+        {
+          "sha256": "4b5bc4bbe5da5ab92cabedf1e39dd3d3387a84408d0f7c9ad38ecd812c416b10",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": true
+        },
+        {
+          "sha256": "a5cd70db78a9003d028f973522def228598242457ff9826b2a8171858f36a385",
+          "signature_valid_in_at_least_one_copy": true,
+          "installed_now": false
+        }
+      ],
+      "public_installer": false,
+      "retrospective_published_on": "2026-10-09"
+    }
+  ]
+}
