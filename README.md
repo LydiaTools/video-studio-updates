@@ -1,4 +1,4 @@
-# Video Studio · 视频制作
+# Video Studio
 
 A public development journal for a local macOS video production tool: research and original narration, scene planning, approved audio, reference discovery, and a shared material library.
 
